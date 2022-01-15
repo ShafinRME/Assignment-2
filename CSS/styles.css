@@ -167,6 +167,9 @@ footer{
        Mobile Devices 
  --------------------------- */
  @media only screen and (max-width:688px) {
+    main{
+        width: 750px;
+             }
     .first-sec{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -196,12 +199,21 @@ footer{
         margin-left:80%;
         text-align: right;
      }
+     footer{
+        height: 239px;
+        width: 700px;
+        margin-left: 25px;
+    
+     }
      
  }
  /*-----------------------------
        Tablet 
  --------------------------- */
  @media only screen and (min-width:688px) and (max-width:992px) {
+     main{
+width: 600px;
+     }
 
 .first-sec{
         display: grid;
@@ -216,6 +228,7 @@ footer{
      .Extra-part{
          display: grid;
          grid-template-columns: repeat(1,1fr);
+         width: 730px;
      }
      .Extra-details{
         margin-bottom: 20px;
