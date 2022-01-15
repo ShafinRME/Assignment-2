@@ -44,11 +44,8 @@ body{
 .header-button{
     text-align: center;
     background-color: #E02C6D;
-    position: absolute;
-    width: 150px;
-    height: 30px;
     margin-top: 16px;
-    border: 2px solid #E02C6D;
+    border: 10px solid #E02C6D;
     border-radius: 41px;
     font-size: 16px;
     font-weight: 700;
@@ -99,6 +96,40 @@ body{
     margin: 0px 20px;
     background-color: lightgrey;
 }
+.see-more{
+    text-decoration: none;
+    margin-left: 92%;
+    text-align: right;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #E02C6D;
+}
+/* ----------------------
+         Extra-Part 
+----------------------- */
+.Extra-part{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #758283;
+    border: 1px solid #758283 ;
+    border-radius: 10px;
+}
+.Extra-details{
+    margin-top: 200px;
+}
+.Second-button{
+    text-align: center;
+    background-color: #E02C6D;
+    margin-top: 16px;
+    border: 10px solid #E02C6D;
+    border-radius: 41px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+}
 /* ------------------------------
              Footer
 ------------------------------  */
@@ -113,3 +144,26 @@ footer{
     color: white;
     margin: 0px 10px;
 }
+/* -------------------------------
+       Media-Queries
+--------------------------------  */
+
+/*-----------------------------
+       Mobile Devices 
+ --------------------------- */
+ @media only screen and (max-width:688px) {
+     .courses{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+     }
+     .first-section{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+     }
+     .Extra-details{
+         display: grid;
+         grid-template-columns: repeat(1,1fr);
+     }
+
+     
+ }
